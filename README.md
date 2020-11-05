@@ -8,4 +8,5 @@ The player being on a solo mission
 The orb being nonliving
 I want the player to feel clever, yet on edge
 https://www.quaddicted.com/files/wads/
-[Process Journal](https://github.com/Kratosflare/Undefinable-Submerged-Object/wiki)
+
+[here.](https://github.com/Kratosflare/Undefinable-Submerged-Object/wiki)
