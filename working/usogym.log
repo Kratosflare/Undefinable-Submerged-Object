@@ -1,0 +1,63 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: usogym.map
+Output file: usogym.bsp
+
+---- LoadMapFile ----
+          492 faces
+           81 brushes
+            6 entities
+            9 unique texnames
+          165 texinfo
+
+Opened WAD: C:/QuakeDeve/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+           79 brushes
+          180 planes
+---- CSGFaces ----
+          480 brushfaces
+          645 csgfaces
+          522 mergedfaces
+---- SolidBSP ----
+          936 split nodes
+          335 solid leafs
+          602 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2549 leaffaces
+         2407 nodefaces
+---- Portalize ----
+          602 vis leafs
+          602 vis clusters
+         1681 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-16 240 40), no filling performed.
+Leak file written to usogym.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+*** WARNING 10: Reached occupant at (416 -3328 112), no filling performed.
+Processing hull 2...
+*** WARNING 19: No entities in empty space -- no filling performed (hull 2)
+---- WriteBSPFile ----
+Wrote usogym.bsp
+          420 planes             8400
+         3226 vertexes          38712
+          948 nodes             22752
+          137 texinfo            5480
+         2427 faces             48540
+         1797 clipnodes         14376
+          615 leafs             17220
+         2569 marksurfaces       5138
+         9669 surfedges         38676
+         6289 edges             25156
+            9 textures         196240
+              lightdata             0
+              visdata               0
+              entdata             413
+
+0.516 seconds elapsed
+Peak memory usage: 10352218 (9.9M)
