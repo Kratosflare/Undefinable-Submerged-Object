@@ -1,0 +1,23 @@
+// Game: Quake
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"wad" "C:/QuakeDeve/wads/prototype_1_2.wad;C:/QuakeDeve/wads/BIGBLUE.wad"
+// brush 0
+{
+( -208 0 -16 ) ( -208 1 -16 ) ( -208 0 -15 ) metal2_8 0 0 0 1 1
+( 32 -640 -16 ) ( 32 -640 -15 ) ( 33 -640 -16 ) metal2_8 -32 0 0 1 1
+( 32 0 -16 ) ( 33 0 -16 ) ( 32 1 -16 ) metal2_8 -32 0 0 1 1
+( 160 128 144 ) ( 160 129 144 ) ( 161 128 144 ) metal2_8 -32 0 0 1 1
+( 160 128 16 ) ( 161 128 16 ) ( 160 128 17 ) metal2_8 -32 0 0 1 1
+( 160 128 16 ) ( 160 128 17 ) ( 160 129 16 ) metal2_8 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Greybox"
+"_tb_id" "3"
+}
