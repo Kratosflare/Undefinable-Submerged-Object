@@ -1,33 +1,68 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 8 threads
-LoadBSPFile: 'Cuber.bsp'
+LoadBSPFile: 'undefinedsubmergedobject.bsp'
 BSP is version 29
 --- LoadEntities ---
-4 entities read, 0 are lights.
+WARNING: entity at () (worldspawn) has empty key/value "message" ""
+WARNING: brush entity with mins (-1199.00 577.00 145) maxs (-1153.00 719.00 255) (trigger_once) has unmatched "target" (ryan)
+WARNING: entity at (-1648 304 144) (item_shells) has empty key/value "" ""
+WARNING: entity at (-1648 -48 144) (item_shells) has empty key/value "" ""
+WARNING: brush entity with mins (-3951.00 -1295.00 4) maxs (-3889.00 -1217.00 5) (func_door) has empty key/value "property 1" ""
+WARNING: brush entity with mins (-3887.00 -1295.00 4) maxs (-3825.00 -1217.00 5) (func_door) has empty key/value "property 1" ""
+WARNING: entity at (-2192 -2528 128) (item_rockets) has "target" set to itself
+WARNING: entity at (-2192 -2528 128) (item_rockets) has targetname "rocket" which is not targetted by anything.
+WARNING: entity at (-2416 -2352 128) (item_health) has "target" set to itself
+WARNING: entity at (-1744 -1680 928) (item_health) has "target" set to itself
+WARNING: entity at (-1728 -1392 928) (item_shells) has "target" set to itself
+WARNING: entity at (-1728 -1392 928) (item_shells) has targetname "shells" which is not targetted by anything.
+WARNING: entity at (-1104 656 168) (item_artifact_envirosuit) has empty key/value "property 1" ""
+WARNING: entity at (-1104 656 168) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-1104 656 168) (item_artifact_envirosuit) has targetname "biosuit1" which is not targetted by anything.
+WARNING: entity at (-1648 544 168) (item_artifact_envirosuit) has empty key/value "property 1" ""
+WARNING: entity at (-1648 544 168) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-1648 544 168) (item_artifact_envirosuit) has targetname "biosuit2" which is not targetted by anything.
+WARNING: entity at (-2768 -320 248) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-2768 -320 248) (item_artifact_envirosuit) has targetname "biosuit" which is not targetted by anything.
+WARNING: entity at (-3408 336 248) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-3408 336 248) (item_artifact_envirosuit) has targetname "biosuit3" which is not targetted by anything.
+WARNING: entity at (-2080 -2352 152) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-2080 -2352 152) (item_artifact_envirosuit) has targetname "biosuit4" which is not targetted by anything.
+WARNING: entity at (-2640 -1968 920) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-2640 -1968 920) (item_artifact_envirosuit) has targetname "biosuit6" which is not targetted by anything.
+WARNING: entity at (-1680 -1296 928) (item_shells) has "target" set to itself
+WARNING: entity at (-1680 -1296 928) (item_shells) has targetname "shellos" which is not targetted by anything.
+WARNING: entity at (-1744 -2304 920) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-1744 -2304 920) (item_artifact_envirosuit) has targetname "biosuit5" which is not targetted by anything.
+WARNING: entity at (-3024 -1264 520) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-3024 -1264 520) (item_artifact_envirosuit) has targetname "bioman" which is not targetted by anything.
+WARNING: entity at (-3184 -1856 920) (item_artifact_envirosuit) has "target" set to itself
+WARNING: entity at (-3184 -1856 920) (item_artifact_envirosuit) has targetname "biased" which is not targetted by anything.
+387 entities read, 277 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	16 solid faces
+	6639 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 277 initial lights
+SetupLights: 277 after surface lights
+SetupLights: 277 after jittering
+WARNING: couldn't nudge light in solid at -2888.000000 -2344.000000 1000.000000
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 277 lights 0 suns in use.
 --- LightWorld ---
-0....1....2....3....4....5....6....7....8....9.
+0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 125298
 0 switchable light styles (32 max)
-Writing Cuber.bsp as BSP version 29
-0.074 seconds elapsed
+Writing undefinedsubmergedobject.bsp as BSP version 29
+0.668 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
+1.288200 lights tested, 0.725319 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
