@@ -12,7 +12,11 @@ It reveals areas of a destroyed base underwater that the player must investigate
 
 ![destroyedfloatingcrate](https://user-images.githubusercontent.com/55363044/102950573-827ad700-4490-11eb-882b-d94833d07945.png)
 
+https://user-images.githubusercontent.com/55363044/102952767-89581880-4495-11eb-8c4c-8bcc9c1b02a9.mp4
+
 ![floatingzombie](https://user-images.githubusercontent.com/55363044/102950574-83136d80-4490-11eb-9414-4fc9dff6324c.png)
+
+https://user-images.githubusercontent.com/55363044/102952786-9248ea00-4495-11eb-85e2-24b903225c52.mp4
 
 ![tiredday](https://user-images.githubusercontent.com/55363044/102950576-83ac0400-4490-11eb-9bf0-4807f887f247.png)
 
